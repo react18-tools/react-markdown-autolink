@@ -64,7 +64,7 @@ importers:
         version: 14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
       nextjs-darkmode:
         specifier: ^1.0.4
-        version: 1.0.4(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 1.0.4(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       nextjs-themes:
         specifier: ^4.0.3
         version: 4.0.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
@@ -81,8 +81,8 @@ importers:
         specifier: ^0.0.4
         version: 0.0.4(@types/react@18.3.3)(react@18.3.1)
       react18-loaders:
-        specifier: latest
-        version: 1.1.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        specifier: ^1.1.3
+        version: 1.1.3(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       webgl-generative-particles:
         specifier: ^0.0.1
         version: 0.0.1(@types/react@18.3.3)(react@18.3.1)
@@ -116,7 +116,7 @@ importers:
         version: link:../../packages/shared
       nextjs-darkmode:
         specifier: ^1.0.4
-        version: 1.0.4(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 1.0.4(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -130,11 +130,11 @@ importers:
         specifier: ^0.0.4
         version: 0.0.4(@types/react@18.3.3)(react@18.3.1)
       react18-loaders:
-        specifier: latest
-        version: 1.1.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        specifier: ^1.1.3
+        version: 1.1.3(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       react18-themes:
         specifier: ^3.2.0
-        version: 3.2.0(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 3.2.0(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
     devDependencies:
       '@repo/eslint-config':
         specifier: workspace:*
@@ -258,7 +258,7 @@ importers:
         version: 14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
       nextjs-darkmode:
         specifier: ^1.0.4
-        version: 1.0.4(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 1.0.4(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       nextjs-themes:
         specifier: ^4.0.3
         version: 4.0.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
@@ -272,8 +272,8 @@ importers:
         specifier: workspace:*
         version: link:../../lib
       react18-loaders:
-        specifier: latest
-        version: 1.1.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        specifier: ^1.1.3
+        version: 1.1.3(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
     devDependencies:
       '@repo/eslint-config':
         specifier: workspace:*
@@ -9274,10 +9274,10 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  nextjs-darkmode@1.0.4(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
+  nextjs-darkmode@1.0.4(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
     dependencies:
       '@types/react': 18.3.3
-      r18gs: 1.1.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+      r18gs: 1.1.3(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       react: 18.3.1
     transitivePeerDependencies:
       - next
@@ -9765,7 +9765,7 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  r18gs@1.1.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
+  r18gs@1.1.3(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
     dependencies:
       '@types/react': 18.3.3
       react: 18.3.1
@@ -9814,18 +9814,18 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react18-loaders@1.1.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
+  react18-loaders@1.1.3(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
     dependencies:
       '@types/react': 18.3.3
-      r18gs: 1.1.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+      r18gs: 1.1.3(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       react: 18.3.1
     optionalDependencies:
       next: 14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
 
-  react18-themes@3.2.0(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
+  react18-themes@3.2.0(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
     dependencies:
       '@types/react': 18.3.3
-      r18gs: 1.1.3(@types/react@18.3.3)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+      r18gs: 1.1.3(@types/react@18.3.3)(next@14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       react: 18.3.1
     optionalDependencies:
       next: 14.2.5(@babel/core@7.24.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
