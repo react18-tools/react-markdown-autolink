@@ -16,7 +16,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "vite build && tsc",
     "clean": "rm -rf dist",
     "dev": "tsup --watch && tsc -p tsconfig-build.json -w",
     "typecheck": "tsc --noEmit",
