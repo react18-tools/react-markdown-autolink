@@ -44,7 +44,8 @@
     "vitest": "^2.0.2"
   },
   "dependencies": {
-    "r18gs": "^2.0.0"
+    "r18gs": "^2.0.0",
+    "vite": "^5.3.3"
   },
   "peerDependencies": {
     "@types/react": "16.8 - 19",
