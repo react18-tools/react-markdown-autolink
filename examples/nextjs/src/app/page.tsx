@@ -1,5 +1,4 @@
 import { LandingPage } from "@repo/shared/dist/server";
-import { Demo } from "@repo/shared";
 import Markdown from "react-markdown";
 import { autoLinkMd } from "react-markdown-autolink";
 

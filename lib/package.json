@@ -3,7 +3,7 @@
   "author": "Mayank Kumar Chaudhari <https://mayank-chaudhari.vercel.app>",
   "private": false,
   "version": "0.0.0",
-  "description": "A highly lightweight utility that automatically detects and makes links clickable in Markdown rendered by react-markdown.",
+  "description": "A highly lightweight utility that automatically detects and makes links clickable in Markdown.",
   "license": "MPL-2.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
