@@ -3,7 +3,7 @@ module.exports = {
   tsconfig: "tsconfig.docs.json",
   name: "React Markdown Autolink",
   entryPoints: ["./lib/src"],
-  exclude: ["**/*.test.tsx", "**/index.ts", "**/declaration.d.ts"],
+  exclude: ["**/*.test.tsx"],
   entryPointStrategy: "Expand",
   out: "./docs",
   commentStyle: "all",
