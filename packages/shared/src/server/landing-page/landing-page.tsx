@@ -41,15 +41,9 @@ export function LandingPage({ title, children }: LandingPageProps) {
     <main className={styles.main}>
       <h1 className={styles.title}>{title}</h1>
       <div className={[styles.center, styles.hero].join(" ")}>
-        <h2>Craft your next amazing library using</h2>
+        <h2>Craft your next amazing project using</h2>
         <Logo href={`https://github.com/${owner}/${repo}`} />
-        <strong>Harness the full potential of React 18 Server Components!</strong>
-      </div>
-      {children}
-      <div className={styles.featured}>
-        <h2>Featured packages built with this template.</h2>
-        <hr />
-        <Cards cards={featured} />
+        <strong>{children}</strong>
       </div>
       <Cards cards={cards} />
     </main>
