@@ -1,20 +1,20 @@
 # React Markdown Autolink <img src="https://github.com/react18-tools/react-markdown-autolink/blob/main/popper.png?raw=true" style="height: 40px"/>
 
-[![test](https://github.com/react18-tools/react-markdown-autolink/actions/workflows/test.yml/badge.svg)](https://github.com/react18-tools/react-markdown-autolink/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/aa896ec14c570f3bb274/maintainability)](https://codeclimate.com/github/react18-tools/react-markdown-autolink/maintainability) [![codecov](https://codecov.io/gh/react18-tools/react-markdown-autolink/graph/badge.svg)](https://codecov.io/gh/react18-tools/react-markdown-autolink) [![Version](https://img.shields.io/npm/v/react-markdown-autolink.svg?colorB=green)](https://www.npmjs.com/package/react-markdown-autolink) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/d18m/react-markdown-autolink.svg)](https://www.npmjs.com/package/react-markdown-autolink) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-markdown-autolink) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
+[![test](https://github.com/react18-tools/react-markdown-autolink/actions/workflows/test.yml/badge.svg)](https://github.com/react18-tools/react-markdown-autolink/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/5ba946f4d45271583a1f/maintainability)](https://codeclimate.com/github/react18-tools/react-markdown-autolink/maintainability) [![codecov](https://codecov.io/gh/react18-tools/react-markdown-autolink/graph/badge.svg)](https://codecov.io/gh/react18-tools/react-markdown-autolink) [![Version](https://img.shields.io/npm/v/react-markdown-autolink.svg?colorB=green)](https://www.npmjs.com/package/react-markdown-autolink) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/d18m/react-markdown-autolink.svg)](https://www.npmjs.com/package/react-markdown-autolink) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-markdown-autolink) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
-React Markdown Autolink is a comprehensive library designed to unlock the full potential of React 18 server components. It provides customizable loading animation components and a fullscreen loader container, seamlessly integrating with React and Next.js.
+## Automatically Detect and Add Hyperlinks to Your Markdown Content
 
-✅ Fully Treeshakable (import from `react-markdown-autolink/client/loader-container`)
+A highly lightweight utility that automatically detects and makes links clickable in Markdown rendered by `react-markdown` or other markdown renderers.
 
-✅ Fully TypeScript Supported
+### Key Features
 
-✅ Leverages the power of React 18 Server components
+✅ **Automatic Link Detection**: Automatically detects URLs and makes them clickable in your Markdown content.
 
-✅ Compatible with all React 18 build systems/tools/frameworks
+✅ **Lightweight**: Minimal overhead, ensuring fast and efficient performance.
 
-✅ Documented with [Typedoc](https://react18-tools.github.io/react-markdown-autolink) ([Docs](https://react18-tools.github.io/react-markdown-autolink))
+✅ **Seamless Integration**: Easily integrates with `react-markdown` and other React, Vue, web components, or any other framework/library supporting markdown.
 
-✅ Examples for Next.js, Vite, and Remix
+✅ **TypeScript First**: Built with TypeScript, ensuring type safety and developer-friendly experience.
 
 > <img src="https://github.com/react18-tools/react-markdown-autolink/blob/main/popper.png?raw=true" style="height: 20px"/> Please consider starring [this repository](https://github.com/react18-tools/react-markdown-autolink) and sharing it with your friends.
 
@@ -23,99 +23,33 @@ React Markdown Autolink is a comprehensive library designed to unlock the full p
 ### Installation
 
 ```bash
-$ pnpm add react-markdown-autolink
+pnpm add react-markdown-autolink
 ```
 
 **_or_**
 
 ```bash
-$ npm install react-markdown-autolink
+npm install react-markdown-autolink
 ```
 
 **_or_**
 
 ```bash
-$ yarn add react-markdown-autolink
+yarn add react-markdown-autolink
 ```
 
-## Want Lite Version? [![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-markdown-autolink-lite)](https://www.npmjs.com/package/react-markdown-autolink-lite) [![Version](https://img.shields.io/npm/v/react-markdown-autolink-lite.svg?colorB=green)](https://www.npmjs.com/package/react-markdown-autolink-lite) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/d18m/react-markdown-autolink-lite.svg)](https://www.npmjs.com/package/react-markdown-autolink-lite)
+## Usage
 
-```bash
-$ pnpm add react-markdown-autolink-lite
-```
+```ts
+import Markdown from "react-markdown";
+import { autoLinkMd } from "react-markdown-autolink";
 
-**or**
+const md = `## Automatically Detect and Add Hyperlinks to Your Markdown Content
+https://github.com/react18-tools/react-markdown-autolink
+`;
 
-```bash
-$ npm install react-markdown-autolink-lite
-```
-
-**or**
-
-```bash
-$ yarn add react-markdown-autolink-lite
-```
-
-> You need `r18gs` as a peer-dependency
-
-### Import Styles
-
-You can import styles globally or within specific components.
-
-```css
-/* globals.css */
-@import "react-markdown-autolink/dist";
-```
-
-```tsx
-// layout.tsx
-import "react-markdown-autolink/dist/index.css";
-```
-
-For selective imports:
-
-```css
-/* globals.css */
-@import "react-markdown-autolink/dist/client"; /** required if you are using LoaderContainer */
-@import "react-markdown-autolink/dist/server/bars/bars1";
-```
-
-### Usage
-
-Using loaders is straightforward.
-
-```tsx
-import { Bars1 } from "react-markdown-autolink/dist/server/bars/bars1";
-
-export default function MyComponent() {
-  return someCondition ? <Bars1 /> : <>Something else...</>;
-}
-```
-
-For detailed API and options, refer to [the API documentation](https://react18-tools.github.io/react-markdown-autolink).
-
-**Using LoaderContainer**
-
-`LoaderContainer` is a fullscreen component. You can add this component directly in your layout and then use `useLoader` hook to toggle its visibility.
-
-```tsx
-// layout.tsx
-<LoaderContainer />
-	 ...
-```
-
-```tsx
-// some other page or component
-import { useLoader } from "react-markdown-autolink/dist/hooks";
-
-export default MyComponent() {
-	const { setLoading } = useLoader();
-	useCallback(()=>{
-		setLoading(true);
-		...do some work
-		setLoading(false);
-	}, [])
-	...
+export default function Page(): JSX.Element {
+  return <Markdown>{autoLinkMd(md)}</Markdown>;
 }
 ```
 
