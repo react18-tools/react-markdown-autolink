@@ -1,5 +1,12 @@
 # react-markdown-autolink
 
+## 0.0.1
+
+### Patch Changes
+
+- 4e17854: Optimize vite build
+- c4a9511: Build with tsup
+
 ## 0.0.1-tsup.1
 
 ### Patch Changes
