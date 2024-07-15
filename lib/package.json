@@ -16,7 +16,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup && tsc",
+    "build": "vite build && tsc && sed -i -e 's/Object.defineProperty(exports,Symbol.toStringTag,{value:\"Module\"});//' dist/index.js",
     "clean": "rm -rf dist",
     "dev": "vite && tsc -w",
     "typecheck": "tsc --noEmit",
