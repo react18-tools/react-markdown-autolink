@@ -1,5 +1,11 @@
 # react-markdown-autolink
 
+## 0.0.2
+
+### Patch Changes
+
+- aa934d7: Urls must have protocols as many markdown parsers don't parse <my-domain.com>
+
 ## 0.0.1
 
 ### Patch Changes
