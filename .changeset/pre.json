@@ -1,0 +1,16 @@
+{
+  "mode": "exit",
+  "tag": "tsup",
+  "initialVersions": {
+    "@example/nextjs": "0.0.0",
+    "@example/vite": "0.0.0",
+    "react-markdown-autolink": "0.0.0",
+    "@repo/eslint-config": "0.0.0",
+    "@repo/typescript-config": "0.0.0",
+    "@repo/shared": "0.0.0",
+    "@repo/scripts": "0.0.0"
+  },
+  "changesets": [
+    "wet-cows-occur"
+  ]
+}
