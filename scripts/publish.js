@@ -46,3 +46,7 @@ execSync("cd lib && pnpm build && npm publish --provenance --access public");
 execSync(
   `gh release create ${VERSION} --generate-notes --latest -n "$(sed '1,/^## /d;/^## /,$d' CHANGELOG.md)" --title "Release v${VERSION}"`,
 );
+
+// Publish canonical packages
+const { publishCanonicals } = require("./publish-canonical");
+publishCanonicals();
