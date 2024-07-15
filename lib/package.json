@@ -16,7 +16,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "vite build && tsc",
+    "build": "tsup && tsc",
     "clean": "rm -rf dist",
     "dev": "vite && tsc -w",
     "typecheck": "tsc --noEmit",
@@ -28,10 +28,12 @@
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^20.14.10",
     "@vitest/coverage-v8": "^2.0.2",
+    "esbuild-plugin-react18": "^0.2.4",
+    "tsup": "^8.1.0",
     "typescript": "^5.5.3",
+    "vite": "^5.3.3",
     "vite-tsconfig-paths": "^4.3.2",
-    "vitest": "^2.0.2",
-    "vite": "^5.3.3"
+    "vitest": "^2.0.2"
   },
   "funding": [
     {
