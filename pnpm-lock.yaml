@@ -67,7 +67,7 @@ importers:
         version: 1.0.4(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       nextjs-themes:
         specifier: ^4.0.3
-        version: 4.0.3(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 4.0.3(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -177,7 +177,7 @@ importers:
         version: 2.0.5(vitest@2.0.5(@types/node@22.5.1)(jsdom@25.0.0)(sass@1.77.8))
       esbuild-plugin-react18:
         specifier: ^0.2.5
-        version: 0.2.5(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 0.2.5(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       tsup:
         specifier: ^8.2.4
         version: 8.2.4(postcss@8.4.41)(typescript@5.5.4)(yaml@2.5.0)
@@ -218,7 +218,7 @@ importers:
     dependencies:
       '@mayank1513/fork-me':
         specifier: ^2.1.2
-        version: 2.1.2(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 2.1.2(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       '@repo/scripts':
         specifier: workspace:*
         version: link:../../scripts
@@ -230,10 +230,10 @@ importers:
         version: 1.0.4(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       nextjs-themes:
         specifier: ^4.0.3
-        version: 4.0.3(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 4.0.3(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       r18gs:
         specifier: ^2.0.0
-        version: 2.0.0(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 2.0.0(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       react-live:
         specifier: ^4.1.7
         version: 4.1.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -270,7 +270,7 @@ importers:
         version: 2.0.5(vitest@2.0.5(@types/node@22.5.1)(jsdom@25.0.0)(sass@1.77.8))
       esbuild-plugin-react18:
         specifier: ^0.2.5
-        version: 0.2.5(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+        version: 0.2.5(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       esbuild-plugin-react18-css:
         specifier: ^0.0.4
         version: 0.0.4
@@ -6101,7 +6101,7 @@ snapshots:
       globby: 11.1.0
       read-yaml-file: 1.1.0
 
-  '@mayank1513/fork-me@2.1.2(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)':
+  '@mayank1513/fork-me@2.1.2(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)':
     dependencies:
       '@types/react': 18.3.4
       react: 18.3.1
@@ -7480,7 +7480,7 @@ snapshots:
       postcss-modules: 6.0.0(postcss@8.4.41)
       sass: 1.77.8
 
-  esbuild-plugin-react18@0.2.5(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
+  esbuild-plugin-react18@0.2.5(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
     dependencies:
       '@types/react': 18.3.4
       react: 18.3.1
@@ -9620,10 +9620,10 @@ snapshots:
     transitivePeerDependencies:
       - next
 
-  nextjs-themes@4.0.3(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
+  nextjs-themes@4.0.3(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
     dependencies:
       '@types/react': 18.3.4
-      r18gs: 2.0.0-alpha.0(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
+      r18gs: 2.0.0-alpha.0(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1)
       react: 18.3.1
     transitivePeerDependencies:
       - next
@@ -10110,14 +10110,14 @@ snapshots:
     optionalDependencies:
       next: 14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
 
-  r18gs@2.0.0(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
+  r18gs@2.0.0(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
     dependencies:
       '@types/react': 18.3.4
       react: 18.3.1
     optionalDependencies:
       next: 14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
 
-  r18gs@2.0.0-alpha.0(@types/react@18.3.4)(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
+  r18gs@2.0.0-alpha.0(@types/react@18.3.4)(next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8))(react@18.3.1):
     dependencies:
       '@types/react': 18.3.4
       react: 18.3.1
