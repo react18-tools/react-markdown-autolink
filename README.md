@@ -1,4 +1,4 @@
-# React Markdown Autolink <img src="https://github.com/react18-tools/react-markdown-autolink/blob/main/popper.png?raw=true" style="height: 40px"/>
+# React Markdown Autolink <img src="https://github.com/mayank1513/mayank1513/blob/main/popper.png?raw=true" style="height: 40px"/>
 
 [![test](https://github.com/react18-tools/react-markdown-autolink/actions/workflows/test.yml/badge.svg)](https://github.com/react18-tools/react-markdown-autolink/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/5ba946f4d45271583a1f/maintainability)](https://codeclimate.com/github/react18-tools/react-markdown-autolink/maintainability) [![codecov](https://codecov.io/gh/react18-tools/react-markdown-autolink/graph/badge.svg)](https://codecov.io/gh/react18-tools/react-markdown-autolink) [![Version](https://img.shields.io/npm/v/react-markdown-autolink.svg?colorB=green)](https://www.npmjs.com/package/react-markdown-autolink) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/d18m/react-markdown-autolink.svg)](https://www.npmjs.com/package/react-markdown-autolink) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-markdown-autolink) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
@@ -16,7 +16,7 @@ A highly lightweight utility that automatically detects and makes links clickabl
 
 ✅ **TypeScript First**: Built with TypeScript, ensuring type safety and developer-friendly experience.
 
-> <img src="https://github.com/react18-tools/react-markdown-autolink/blob/main/popper.png?raw=true" style="height: 20px"/> Please consider starring [this repository](https://github.com/react18-tools/react-markdown-autolink) and sharing it with your friends.
+> <img src="https://github.com/mayank1513/mayank1513/blob/main/popper.png?raw=true" style="height: 20px"/> Please consider starring [this repository](https://github.com/react18-tools/react-markdown-autolink) and sharing it with your friends.
 
 ## Getting Started
 
@@ -57,7 +57,7 @@ export default function Page(): JSX.Element {
 
 This library is licensed under the MPL-2.0 open-source license.
 
-> <img src="https://github.com/react18-tools/react-markdown-autolink/blob/main/popper.png?raw=true" style="height: 20px"/> Please consider enrolling in [our courses](https://mayank-chaudhari.vercel.app/courses) or [sponsoring](https://github.com/sponsors/mayank1513) our work.
+> <img src="https://github.com/mayank1513/mayank1513/blob/main/popper.png?raw=true" style="height: 20px"/> Please consider enrolling in [our courses](https://mayank-chaudhari.vercel.app/courses) or [sponsoring](https://github.com/sponsors/mayank1513) our work.
 
 <hr />
 
