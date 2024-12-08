@@ -10,7 +10,7 @@ const md = `## Automatically Detect and Add Hyperlinks to Your Markdown Content
 https://github.com/react18-tools/react-markdown-autolink
 `;
 /** next.js landing page */
-export default function Page(): JSX.Element {
+export default function Page() {
   return (
     <LandingPage title="Next.js Example">
       <Markdown>{autoLinkMd(md)}</Markdown>

@@ -48,7 +48,7 @@ const md = `## Automatically Detect and Add Hyperlinks to Your Markdown Content
 https://github.com/react18-tools/react-markdown-autolink
 `;
 
-export default function Page(): JSX.Element {
+export default function Page() {
   return <Markdown>{autoLinkMd(md)}</Markdown>;
 }
 ```
