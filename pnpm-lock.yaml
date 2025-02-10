@@ -33,26 +33,26 @@ importers:
         specifier: ^2.4.0
         version: 2.4.0
       typedoc:
-        specifier: ^0.27.6
-        version: 0.27.6(typescript@5.7.3)
+        specifier: ^0.27.7
+        version: 0.27.7(typescript@5.7.3)
       typedoc-plugin-extras:
         specifier: ^4.0.0
-        version: 4.0.0(typedoc@0.27.6(typescript@5.7.3))
+        version: 4.0.0(typedoc@0.27.7(typescript@5.7.3))
       typedoc-plugin-inline-sources:
         specifier: ^1.2.0
-        version: 1.2.0(typedoc@0.27.6(typescript@5.7.3))
+        version: 1.2.0(typedoc@0.27.7(typescript@5.7.3))
       typedoc-plugin-mdn-links:
         specifier: ^4.0.12
-        version: 4.0.12(typedoc@0.27.6(typescript@5.7.3))
+        version: 4.0.12(typedoc@0.27.7(typescript@5.7.3))
       typedoc-plugin-missing-exports:
         specifier: ^3.1.0
-        version: 3.1.0(typedoc@0.27.6(typescript@5.7.3))
+        version: 3.1.0(typedoc@0.27.7(typescript@5.7.3))
       typedoc-plugin-rename-defaults:
         specifier: ^0.7.2
-        version: 0.7.2(typedoc@0.27.6(typescript@5.7.3))
+        version: 0.7.2(typedoc@0.27.7(typescript@5.7.3))
       typedoc-plugin-zod:
         specifier: ^1.3.1
-        version: 1.3.1(typedoc@0.27.6(typescript@5.7.3))
+        version: 1.3.1(typedoc@0.27.7(typescript@5.7.3))
 
   examples/nextjs:
     dependencies:
@@ -85,7 +85,7 @@ importers:
         version: 0.0.5(@types/react@19.0.8)(react@19.0.0)
       react18-loaders:
         specifier: ^1.1.4
-        version: 1.1.4(@types/react@19.0.8)(next@15.1.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.84.0))(react@19.0.0)
+        version: 1.1.4(@types/react@19.0.8)(next@15.1.6(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.84.0))(react@19.0.0)
       webgl-generative-particles:
         specifier: ^0.0.1
         version: 0.0.1(@types/react@19.0.8)(react@19.0.0)
@@ -134,7 +134,7 @@ importers:
         version: 0.0.5(@types/react@19.0.8)(react@19.0.0)
       react18-loaders:
         specifier: ^1.1.4
-        version: 1.1.4(@types/react@19.0.8)(next@15.1.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.84.0))(react@19.0.0)
+        version: 1.1.4(@types/react@19.0.8)(next@15.1.6(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.84.0))(react@19.0.0)
       react18-themes:
         specifier: ^3.2.0
         version: 3.2.0(@types/react@19.0.8)(next@15.1.6(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.84.0))(react@19.0.0)
@@ -242,7 +242,7 @@ importers:
         version: link:../../lib
       react18-loaders:
         specifier: ^1.1.4
-        version: 1.1.4(@types/react@19.0.8)(next@15.1.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.84.0))(react@19.0.0)
+        version: 1.1.4(@types/react@19.0.8)(next@15.1.6(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.84.0))(react@19.0.0)
     devDependencies:
       '@repo/eslint-config':
         specifier: workspace:*
@@ -5064,8 +5064,8 @@ packages:
     peerDependencies:
       typedoc: 0.23.x || 0.24.x || 0.25.x || 0.26.x || 0.27.x
 
-  typedoc@0.27.6:
-    resolution: {integrity: sha512-oBFRoh2Px6jFx366db0lLlihcalq/JzyCVp7Vaq1yphL/tbgx2e+bkpkCgJPunaPvPwoTOXSwasfklWHm7GfAw==}
+  typedoc@0.27.7:
+    resolution: {integrity: sha512-K/JaUPX18+61W3VXek1cWC5gwmuLvYTOXJzBvD9W7jFvbPnefRnCHQCEPw7MSNrP/Hj7JJrhZtDDLKdcYm6ucg==}
     engines: {node: '>= 18'}
     hasBin: true
     peerDependencies:
@@ -10398,7 +10398,7 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react18-loaders@1.1.4(@types/react@19.0.8)(next@15.1.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.84.0))(react@19.0.0):
+  react18-loaders@1.1.4(@types/react@19.0.8)(next@15.1.6(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.84.0))(react@19.0.0):
     dependencies:
       '@types/react': 19.0.8
       r18gs: 2.1.0(@types/react@19.0.8)(react@19.0.0)
@@ -11204,32 +11204,32 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typedoc-plugin-extras@4.0.0(typedoc@0.27.6(typescript@5.7.3)):
+  typedoc-plugin-extras@4.0.0(typedoc@0.27.7(typescript@5.7.3)):
     dependencies:
-      typedoc: 0.27.6(typescript@5.7.3)
+      typedoc: 0.27.7(typescript@5.7.3)
 
-  typedoc-plugin-inline-sources@1.2.0(typedoc@0.27.6(typescript@5.7.3)):
+  typedoc-plugin-inline-sources@1.2.0(typedoc@0.27.7(typescript@5.7.3)):
     dependencies:
-      typedoc: 0.27.6(typescript@5.7.3)
+      typedoc: 0.27.7(typescript@5.7.3)
 
-  typedoc-plugin-mdn-links@4.0.12(typedoc@0.27.6(typescript@5.7.3)):
+  typedoc-plugin-mdn-links@4.0.12(typedoc@0.27.7(typescript@5.7.3)):
     dependencies:
-      typedoc: 0.27.6(typescript@5.7.3)
+      typedoc: 0.27.7(typescript@5.7.3)
 
-  typedoc-plugin-missing-exports@3.1.0(typedoc@0.27.6(typescript@5.7.3)):
+  typedoc-plugin-missing-exports@3.1.0(typedoc@0.27.7(typescript@5.7.3)):
     dependencies:
-      typedoc: 0.27.6(typescript@5.7.3)
+      typedoc: 0.27.7(typescript@5.7.3)
 
-  typedoc-plugin-rename-defaults@0.7.2(typedoc@0.27.6(typescript@5.7.3)):
+  typedoc-plugin-rename-defaults@0.7.2(typedoc@0.27.7(typescript@5.7.3)):
     dependencies:
       camelcase: 8.0.0
-      typedoc: 0.27.6(typescript@5.7.3)
+      typedoc: 0.27.7(typescript@5.7.3)
 
-  typedoc-plugin-zod@1.3.1(typedoc@0.27.6(typescript@5.7.3)):
+  typedoc-plugin-zod@1.3.1(typedoc@0.27.7(typescript@5.7.3)):
     dependencies:
-      typedoc: 0.27.6(typescript@5.7.3)
+      typedoc: 0.27.7(typescript@5.7.3)
 
-  typedoc@0.27.6(typescript@5.7.3):
+  typedoc@0.27.7(typescript@5.7.3):
     dependencies:
       '@gerrit0/mini-shiki': 1.27.2
       lunr: 2.3.9
