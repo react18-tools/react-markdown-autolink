@@ -20,7 +20,7 @@
     "react-markdown": "^10.1.0",
     "react-markdown-autolink": "workspace:*",
     "react-mouse-trails": "^0.0.5",
-    "react18-loaders": "^1.1.7",
+    "react18-loaders": "^1.1.11",
     "webgl-generative-particles": "^0.0.1"
   },
   "devDependencies": {
